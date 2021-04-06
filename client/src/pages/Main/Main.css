@@ -1,0 +1,152 @@
+.Main__Container {
+  background-image: url(../../assets/coffee.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1A1A1D;
+  background-position: 50% 50%
+}
+
+.Main__Section {
+    width: 800px;
+    max-width: 90%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.Main__Brand {
+    padding: 20px;
+    background: #333333;
+    display: flex;
+    align-items: center;
+}
+.Main__Brand h1 {
+    font-size: 20px;
+    color: rgb(173, 173, 173);
+    margin-left: 10px;
+}
+.Main__MessageArea {
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 10px;
+    background: rgb(110, 110, 110);
+    opacity: 0.9;
+}
+
+
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+    resize: none;
+}
+
+.Main__Received {
+    background: #5F3F2F;
+    color: #fff;  
+    padding: 5px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;  
+    margin-bottom: 20px;
+    max-width: 300px;
+    position: relative;
+}
+.Main__Automoderator {
+    /* background: #e9eafd; */
+    color: rgb(255, 255, 255);  
+    padding: 5px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;  
+    margin-bottom: 20px;
+    max-width: 300px;
+    position: relative;
+    font-size: 14px;
+    font-style: italic;
+}
+.Main__Sent {
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+    padding: 5px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.Message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333; 
+    font-size: 14px;
+} 
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .Main__Container {
+      height: 100%;
+    }
+  
+    .Main__Section { 
+      width: 90%; 
+      height: 90%;
+    } 
+
+    .Main__MessageArea {
+        height: 65vh;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        padding-top: 10px;
+        background: rgb(110, 110, 110);
+        opacity: 0.9;
+    }
+  
+    .Main__Received {
+        background: #5F3F2F;
+        color: #fff;  
+        padding: 5px; 
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;  
+        margin-bottom: 20px;
+        max-width: 300px;
+        position: relative;
+    }
+    .Main__Automoderator {
+        /* background: #e9eafd; */
+        color: rgb(255, 255, 255);  
+        padding: 5px; 
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;  
+        margin-bottom: 20px;
+        max-width: 300px;
+        position: relative;
+        font-size: 14px;
+        font-style: italic;
+    }
+    .Main__Sent {
+        background: #e9eafd;
+        color: #787986;
+        margin-left: auto;
+        padding: 3px; 
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 4px; 
+        margin-bottom: 30px;
+        max-width: 300px;
+        position: relative;
+        font-size: 85%;
+    }
+  
+  }

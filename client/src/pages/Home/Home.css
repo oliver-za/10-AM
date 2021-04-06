@@ -1,0 +1,79 @@
+
+.Home__Bg {
+  background-image: url(../../assets/coffeeBW.jpg);
+  background-size: cover;  
+  background-position: 50% 50%;
+  height: 100vh;
+}
+
+.Home__OuterContainer {  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh; 
+  align-items: center; 
+}
+
+.Home__InnerContainer {
+  width: 20%;
+}
+
+.Home__Input {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+  opacity: 0.85;
+  font-size: 15px;
+}
+
+
+.Home__Heading {
+  color: rgb(255, 255, 255);
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+  opacity: 0.8
+}
+
+.Home__Button {
+    color: #fff !important;
+    text-transform: uppercase; 
+    text-decoration: none;
+    background: #5A3E2D;
+    padding: 20px;
+    border-radius: 0px;
+    display: inline-block;
+    border: 1px solid black;
+    width: 100%;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Home__OuterContainer {
+    height: 100%;
+  }
+
+  .Home__InnerContainer {
+    width: 90%; 
+  }
+
+
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #694b38;
+}
+
+button:focus {
+  outline: 0; 
+}
