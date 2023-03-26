@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useHistory } from "react-router-dom";
+
+// import Tenam from './tenam-logo.png'
  
 import './Home.css';
 
@@ -36,7 +38,13 @@ export default function SignIn() {
     <div className="Home__Bg">
     <div className="Home__OuterContainer"> 
       <div className="Home__InnerContainer">
-        <h1 className="Home__Heading">10am.</h1>
+        {/* <h1 className="Home__Heading">10am.</h1> */}
+        {/* {Tenam} */}
+        <img
+                        alt="..."
+                        src={require("assets/tenam-logo3.png")}
+                        width="100%"
+            /> 
         <div>  
           <input ref={nameInput} placeholder="Name" className="Home__Input" type="text" onChange={(event) => setName(event.target.value)} />
         </div>
